@@ -1,0 +1,9 @@
+main: whitetac.spigotplugin.mcbitcoin.App
+name: McBitcoinTrade
+version: 1.0-SNAPSHOT
+api-version: 1.15
+depend: [Vault]
+commands:
+  bitcoin:
+    aliases: [buy, sell]
+    ussage: /command
